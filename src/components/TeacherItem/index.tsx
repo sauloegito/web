@@ -11,7 +11,7 @@ export interface Teacher {
     cost: number;
     name: string;
     subject: string;
-    whastapp: string;
+    whatsapp: string;
 }
 
 interface TeacherItemProps {
@@ -37,7 +37,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({teacher}) => {
             <p>{teacher.bio}</p>
             <footer>
                 <p>Preço/hora <strong>R$ {teacher.cost}</strong> </p>
-                <a href={`https://wa.me/${teacher.whastapp}`} target='_blanck'
+                <a href={`https://wa.me/${teacher.whatsapp}`} target='_blanck'
                     onClick={registerConnection}>
                     <img src={zapIcon} alt="whatsapp" />
                     Entrar em contato

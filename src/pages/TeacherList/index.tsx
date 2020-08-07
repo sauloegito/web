@@ -17,7 +17,7 @@ function TeacherList() {
     const [week_day, setWeekDay] = useState('');
     const [time, setTime] = useState('');
 
-    async function searchTeachers(e: FormEvent) {
+    function searchTeachers(e: FormEvent) {
         e.preventDefault();
 
         const params = {

@@ -27,6 +27,9 @@
     transition: 0.2s;
 }
 
+#search-teachers button:hover {
+    background: var(--color-secundary-dark);
+}
 
 #page-teacher-list main {
     margin: 3.2rem auto;
